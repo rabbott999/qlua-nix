@@ -1,0 +1,12 @@
+diff --git a/Makefile b/Makefile
+index c0c401f..f917ca2 100644
+--- a/Makefile
++++ b/Makefile
+@@ -61,6 +61,7 @@ arpacklib:
+ 	do \
+ 		$(CD) $$f; \
+ 		$(ECHO) Making lib in $$f; \
++		$(ECHO) $(MAKE) $(PRECISIONS); \
+ 		$(MAKE) $(PRECISIONS); \
+ 		$(CD) ..; \
+ 	done );

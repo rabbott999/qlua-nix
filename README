@@ -1,0 +1,3 @@
+Trying to get as many lattice libraries as possible compiled under nix -- qlua
+is probably the end target, since I think it's the most
+comprehensive/complicated compile process of them all.
