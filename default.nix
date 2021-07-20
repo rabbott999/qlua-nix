@@ -50,14 +50,6 @@ let
       gsl = gsl;
     };
 
-    qluaEnv = mkShell rec {
-      name = "qluaEnv";
-      buildInputs = [
-        qlua
-        chroma
-      ];
-    };
-
     inherit pkgs;
   };
 in
